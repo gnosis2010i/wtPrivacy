@@ -1,14 +1,14 @@
 <BODY>
-    <article id="wtPrivacy" />
+    <article id="wtpolicy" />
 
     <script>
-        fetch('https://worldclock.microcms.io/api/v1/wtPrivacy',
+        fetch('https://worldclock.microcms.io/api/v1/wtpolicy',
             { headers: { "X-MICROCMS-API-KEY": "LGQNIWRHdh0rol2VlowPtgVlLemKRnrf8one" } })
             .then((res) => {
                 return res.json();
             })
             .then((json) => {
-                document.getElementById("wtPrivacy").innerHTML = json.body;
+                document.getElementById("wtpolicy").innerHTML = json.body;
             })
             .catch((reason) => {
                 console.log(reason);
