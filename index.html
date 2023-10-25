@@ -1,20 +1,17 @@
-
 <BODY>
-    <article id="wtpolicy" />
+    <article id="wtPrivacy" />
 
     <script>
-        fetch("https://worldclock.microcms.io/api/v1/wtpolicy",
-            { headers: { "X-MICROCMS-API-KEY: LGQNIWRHdh0rol2VlowPtgVlLemKRnrf8one" } })
+        fetch('https://worldclock.microcms.io.microcms.io/api/v1/terms',
+            { headers: { "X-MICROCMS-API-KEY": "LGQNIWRHdh0rol2VlowPtgVlLemKRnrf8one" } })
             .then((res) => {
                 return res.json();
             })
             .then((json) => {
-                document.getElementById("wtpolicy").innerHTML = json.body;
+                document.getElementById("wtPrivacy").innerHTML = json.body;
             })
             .catch((reason) => {
                 console.log(reason);
             });
     </script>
 </BODY>
-
-
