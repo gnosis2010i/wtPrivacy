@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Pro&v=2" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Pro+Icons&v=1" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Mono&v=2" type="text/css" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Apple+Icons&amp;v=1" type="text/css" />
+
+	<meta charset="utf-8" />
+<meta name="Author" content="Apple Inc." />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" href="/favicon.ico" />
+<link rel="mask-icon" href="/apple-logo.svg" color="#333333">
+
+<link rel="stylesheet" href="/assets/styles/global.dist.css?23182355271" type="text/css" />
+<link rel="stylesheet" href="/assets/styles/dark-mode.css?23182355271" type="text/css" media="(prefers-color-scheme: dark)" data-color-scheme="dark" />
+<link rel="stylesheet" href="/assets/styles/localization.css?23182355271" type="text/css" />
+
+<script src="/assets/scripts/lib/jquery/jquery-3.6.0.min.js?23182355271"></script>
+<script src="/assets/scripts/settings.js?23182355271"></script>
+<script src="/assets/scripts/language-locales.js?23182355271"></script>
+<script src="/assets/scripts/DeveloperBreadcrumbs.js?23182355271"></script>
+
+<script async src="/assets/scripts/lib/jquery/jquery.retinate.js?23182355271"></script>
+<script async src="/assets/scripts/global.js?23182355271"></script>
+<script async src="/assets/scripts/global-logout.js?23182355271"></script>
+
+
+
+	<title>WeatherKit - Data Sources - Apple Developer</title>
+	<meta name="omni_page" content="WeatherKit - Data Sources - (English)" />
+	<meta name="Description" content="">
+
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:site_name" content="Apple Developer" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="https://developer.apple.com/news/images/og/weatherkit-og.jpg">
+	<meta property="og:title" content="WeatherKit - Data Sources - Apple Developer">
+	<meta property="og:description" content="">
+	<meta property="og:url" content="https://developer.apple.com/weatherkit/data-source-attribution/">
+
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="https://developer.apple.com/news/images/og/weatherkit-og-twitter.jpg">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:title" content="WeatherKit - Data Sources - Apple Developer">
+	<meta name="twitter:url" content="https://developer.apple.com/weatherkit/data-source-attribution/">
+
+	<link rel="alternate" href="https://developer.apple.com/weatherkit/data-source-attribution/" hreflang="en" />
+	<link rel="canonical" href="https://developer.apple.com/weatherkit/data-source-attribution/" />
+
+	<link href="/weatherkit/styles/weatherkit.css" rel="stylesheet" type="text/css">
+</head>
+<body id="data-source-attribution">
+
+	<!-- metrics -->
+<script>
+    /* RSID: */
+    var s_account="awdappledeveloper"
+</script>	
+<script src="/assets/metrics/scripts/analytics.js?10202020"></script>
+<script>
+    s.pageName= AC && AC.Tracking && AC.Tracking.pageName();
+    s.channel="www.en.developer"
+    s.channel="www.en.developer";
+
+    
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code=s.t();if(s_code)document.write(s_code)
+</script>
+<!-- /metrics -->
+
+	<main id="main" class="main" role="main">
+
+		<section class="section section-data-sources">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-centered large-10 medium-12">
+<h4 style="margin-top:1.6em;">Weather Data provided by WeatherKit</h4>						
+<img
+  class="fit-picture"
+  src="awlogo.png"
+  alt="Grapefruit slice atop a pile of other slices" />
+
+
+						<h4 style="margin-top:1.6em;">WeatherKit - Data Sources</h4>
+
+						<ul>
+							<li><a href="https://www.weather.gov/">National Weather Service/National Oceanic and Atmospheric Administration (NOAA)</a></li>
+							<li><a href="https://weather.gc.ca/">Environment and Climate Change Canada</a></li>
+							<li><a href="https://www.dwd.de/DE/Home/home_node.html">Deutscher Wetterdienst</a></li>
+							<li><a href="https://www.metoffice.gov.uk/">The Met Office/European Centre for Medium-range Weather Forecasts (ECMWF)</a></li>
+							<li><a href="https://www.jma.go.jp/jma/indexe.html">Japan Meteorological Agency</a></li>
+						</ul>
+
+
+						
+					
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+</body>
+</html>
