@@ -1,0 +1,169 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <title>WorldTimeClock - High Visivility Clock & Weather</title>
+    </head>
+
+    <style>
+           .fixback
+           {
+               display: block;
+               width: 100%;
+               height: 100%;
+               line-height: 0px;
+               left: 0;
+               top: 0;
+               background-color: rgb(215,220,228);
+           }
+           .nametext{
+               text-align: center;
+               margin-left: auto;
+               margin-right: auto;
+               font-size: 18px;
+               font-weight: 600;
+               margin-top: 40px;
+               display: block;
+           }
+           .iconimg
+           {
+               display: block;
+               width: 750px;
+               height: 1334;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 50px;
+               border-radius: 10px;
+           }
+.iconimg2
+           {
+               display: block;
+               width: 110px;
+               height: 110px;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 50px;
+               border-radius: 10px;
+           }
+.iconimg3
+           {
+               display: block;
+               width: 344px;
+               height: 133px;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 50px;
+               border-radius: 10px;
+           }
+           .downbtn
+           {
+               width: 280px;
+               height: 50px;
+               background-color: rgb(2,208,130);
+               text-align: center;
+               line-height: 50px;
+               margin-left: auto;
+               margin-right: auto;
+               border: hidden;
+               font-size: 16px;
+               color: white;
+               margin-top: 50px;
+               border-radius: 6px;
+           }
+           .context
+           {
+               display: block;
+               margin-left: auto;
+               margin-right: auto;
+               margin-top: 30px;
+               width: 280px;
+               line-height: 24px;
+               font-size: 15px;
+               font-weight: 600;
+               color: rgba(41,88,108,0.8);
+           }
+    </style>
+
+    <body style="text-align: center;background-color: rgb(210,220,228);">
+
+    <div class="fixback">
+<a href="https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E6%99%82%E8%A8%88s-%E6%97%A5%E3%81%AE%E5%87%BA-%E6%97%A5%E3%81%AE%E5%85%A5-%E5%B0%B1%E6%A5%AD%E6%99%82%E9%96%93%E3%82%92%E9%80%9A%E7%9F%A5-%E5%90%84%E9%83%BD%E5%B8%82%E3%81%AE%E5%A4%A9%E6%B0%97%E3%82%82/id6469668390"></a>
+
+ 
+        
+        <img class="iconimg" src="img/english2.png" />
+
+        <div>
+            <!--
+            <ul class="context" style="text-align:left;white-space:normal;word-wrap:break-word;">
+                <li>Support almost all video formats: MP4,AVI,MKV,RMVB,FLV,WMV,3GP,WAV,MOV,SWF,MPEG,ASF,MTS,RM,VOB,M4V,M2TS ...</li>
+                <li>Audio formats: MP3,WMA,WAV,DTS,AAC,AMR,FLAC,M4A,AIFF,OGG ...</li>
+                <li>Import media files:</li>
+            </ul>
+            -->
+            <div class="context" style="text-align:left;white-space:normal;word-wrap:break-word;">
+            
+            
+            
+            </div>
+            <!--
+            <ol class="context" style="text-align:left;">
+                <li>In other apps, use open in... to import files.</li>
+                <li>Import files from Files/iCloud Drive.</li>
+                <li>Import files from PC.</li>
+                <li>Import video files from the Photo Library.</li>
+            </ol>
+            -->
+       <br>
+<br>     
+        
+
+       <br>
+<br>
+    
+
+<br></br>
+   
+
+    </body>
+    <script>
+
+        var copyDOM = document.querySelector('#copy-txt');
+        copyDOM.innerText = this.location.href;
+
+    function copyTXT(){
+        
+        window.location.href="https://apps.apple.com/jp/app/%E4%B8%96%E7%95%8C%E6%99%82%E8%A8%88s-%E6%97%A5%E3%81%AE%E5%87%BA-%E6%97%A5%E3%81%AE%E5%85%A5-%E5%B0%B1%E6%A5%AD%E6%99%82%E9%96%93%E3%82%92%E9%80%9A%E7%9F%A5-%E5%90%84%E9%83%BD%E5%B8%82%E3%81%AE%E5%A4%A9%E6%B0%97%E3%82%82/id6469668390";
+        
+    var range = document.createRange(); // 创建容器
+    range.selectNode(copyDOM); // 选中需要复制的节点
+    window.getSelection().addRange(range); // 执行选中元素
+    var successful = document.execCommand('copy');// 执行 copy 操作
+    try {
+        var msg = successful ? 'successful' : 'unsuccessful';
+        console.log('Copy was ' + msg);
+    } catch(err) {
+        console.log('unable to copy');
+    }
+    window.getSelection().removeAllRanges(); // 移除选中的元素
+    
+    
+}
+
+    </script>
+
+</html>
